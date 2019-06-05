@@ -1,0 +1,146 @@
+/*页面小于721px的时候*/
+@media screen and (max-device-width:721px){
+    html{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:500px){
+    html{
+        font-size: 15px;
+    }
+}
+/*当尺寸大于1200px时候 */
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 30px;
+}
+}
+/* 当页面宽度大于721px小于1200px的时候执行下面的CSS */
+@media screen and (min-width:721px) and (max-width:1200px){
+    html{
+        font-size: 25px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background: #e8e8e8;
+}
+.zk{
+    height: 100%;
+    background: #e8e8e8;
+    margin: auto;
+}
+.top_div{
+    margin: auto;
+    width: 100%;
+    background: white;
+    display: flex;
+}
+.down_div{
+    margin: 20px auto;
+    width: 100%;
+    padding-bottom:1rem ;
+    background: white;
+}
+.top_div_ch_color1{background: #F6F6F6;}
+.top_div_ch_color2{background: #FFF8F6;color: #FD515A}
+.top_div_ch{
+    width: 45%;
+    height: 7rem;
+    margin:  1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down_div_top{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.down_div_down{
+    width: 100%;
+    margin: auto;
+}
+.down_div_top_p{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+.down_div_down_div_fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down_div_down_div{
+    width: 15%;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.down_div_down_div_1{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background: #FDEAE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.down_div_down p{
+    font-size: 0.5rem;
+}
+.down_div_down_div_1 p{
+    color: #FBD7D3;
+    font-size: 1rem;
+}
+.mengban{
+    width: 100%;
+    height: 0vh;
+    position:fixed;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.beibai{
+    width: 15rem;
+    height: 0rem;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+.beibai_zk{
+    width: 66%;
+    height: 60%;
+    margin: auto;
+}
+.beibai_top{
+    height: 20%;
+}
+.beibai_down{
+    margin-top: 0.5rem;
+    height: 70%;
+}
+.gb{
+    width: 1em;
+    height: 1em;
+    margin-top: 3rem;
+    border-radius: 100%;
+    border: white 0.05em solid;
+    font-size: 0.7em;
+    text-align:center;
+    line-height: 0.9em;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
